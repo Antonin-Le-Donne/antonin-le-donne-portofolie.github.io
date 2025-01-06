@@ -2,13 +2,15 @@ Bienvenue sur mon Portfolio !
 Je m'appelle Antonin Le Donné, et je suis un passionné de technologie, d'intelligence artificielle et de jeux vidéo. Ce site est un reflet de mes intérêts, de mes projets et de mon parcours académique et professionnel. Vous y trouverez mes réalisations, ainsi que des informations sur les projets qui me motivent actuellement et ceux que je souhaite entreprendre à l'avenir.
 
 Qui suis-je ?
-Je suis actuellement étudiant en Bac +5, avec une spécialisation en développement informatique et plus particulièrement en intelligence artificielle. Ce domaine me passionne profondément, car il ouvre des perspectives incroyables pour l’avenir de la technologie. Mon objectif est de devenir un expert en IA et de contribuer à l'innovation et aux solutions technologiques dans divers secteurs.
+Je suis actuellement étudiant en BUT informatique, avec l'envie de me spécialiser en développement informatique et plus particulièrement en intelligence artificielle. Ce domaine me passionne profondément, car il ouvre des perspectives incroyables pour l’avenir de la technologie. Mon objectif est de devenir un expert en IA.
 
 En parallèle de mes études, je suis également un passionné de jeux vidéo, plus précisément des genres souls-like et metroidvania, ainsi qu'un joueur d'échecs assidu. J’aime l’idée de relever des défis complexes, que ce soit sur un échiquier ou dans un jeu vidéo exigeant. Ces activités me permettent de constamment stimuler mon esprit stratégique.
 
 Mes Projets
+
 Projet Professionnel : Développement d'Intelligence Artificielle
-Mon projet actuel est de poursuivre mes études pour approfondir mes connaissances en développement et IA. Je suis particulièrement intéressé par les applications de l'intelligence artificielle dans le traitement des données, l'automatisation et la création de systèmes intelligents.
+
+Mon projet actuel est de poursuivre mes études puis  approfondir mes connaissances en développement et faire un master en IA. Je suis particulièrement intéressé par les applications de l'intelligence artificielle dans le traitement des données, l'automatisation et la création de systèmes intelligents.
 
 Projets Personnels
 Développement de jeux vidéo (Dungeon Crawler sur Roblox) : J’ai un projet en cours où je développe un jeu vidéo de type dungeon crawler sur la plateforme Roblox. C’est un projet qui combine ma passion pour la création de jeux et l'innovation technologique.
