@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Merci – Antonin Le Donné</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <section class="min-h-screen flex flex-col items-center justify-center bg-white text-center px-6">
+        <h1 class="text-4xl font-bold text-primary mb-4">Merci pour votre message !</h1>
+        <p class="text-gray-700 text-lg mb-6">
+            Je vous répondrai dans les plus brefs délais.<br>
+            En attendant, vous pouvez retourner à l’accueil ou consulter mes projets.
+        </p>
+        <div class="flex space-x-4">
+            <a href="index.html" class="bg-accent text-white px-6 py-2 rounded hover:bg-blue-600 transition duration-300">
+                Retour à l'accueil
+            </a>
+            <a href="projets.html" class="border border-accent text-accent px-6 py-2 rounded hover:bg-accent hover:text-white transition duration-300">
+                Voir mes projets
+            </a>
+        </div>
+    </section>
+</body>
+</html>
+<script>
+    // Redirection après 5 secondes
+    setTimeout(function() {
+        window.location.href = 'index.html';
+    }, 5000);
