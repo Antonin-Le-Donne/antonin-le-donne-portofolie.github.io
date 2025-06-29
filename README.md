@@ -1,28 +1,27 @@
-Bienvenue sur mon Portfolio !
-Une version anglaise est disponible. Utilisez l'icône en forme de globe pour changer de langue.
-Je m'appelle Antonin Le Donné, et je suis un passionné de technologie, d'intelligence artificielle et de jeux vidéo. Ce site est un reflet de mes intérêts, de mes projets et de mon parcours académique et professionnel. Vous y trouverez mes réalisations, ainsi que des informations sur les projets qui me motivent actuellement et ceux que je souhaite entreprendre à l'avenir.
+# Antonin Le Donné Portfolio
 
-Qui suis-je ?
-Je suis actuellement étudiant en BUT informatique, avec l'envie de me spécialiser en développement informatique et plus particulièrement en intelligence artificielle. Ce domaine me passionne profondément, car il ouvre des perspectives incroyables pour l’avenir de la technologie. Mon objectif est de devenir un expert en IA.
+Welcome to my portfolio! A French version is also available. Click the globe icon in the header to switch languages.
 
-En parallèle de mes études, je suis également un passionné de jeux vidéo, plus précisément des genres souls-like et metroidvania, ainsi qu'un joueur d'échecs assidu. J’aime l’idée de relever des défis complexes, que ce soit sur un échiquier ou dans un jeu vidéo exigeant. Ces activités me permettent de constamment stimuler mon esprit stratégique.
+I'm Antonin Le Donné, a technology enthusiast fascinated by artificial intelligence and video games. This site showcases my interests, projects and academic path. You'll find my work as well as information about the projects that motivate me today and those I want to undertake in the future.
 
-Mes Projets
+## About me
+I'm currently studying computer science at the IUT of Blagnac with the goal of specializing in development, particularly in artificial intelligence. This field excites me because it opens incredible possibilities for the future of technology.
 
-Projet Professionnel : Développement d'Intelligence Artificielle
+Besides my studies, I'm passionate about video games—especially souls-likes and metroidvanias—and I'm a dedicated chess player. I love tackling complex challenges whether on a chessboard or in a demanding game. These activities constantly stimulate my strategic mind.
 
-Mon projet actuel est de poursuivre mes études puis  approfondir mes connaissances en développement et faire un master en IA. Je suis particulièrement intéressé par les applications de l'intelligence artificielle dans le traitement des données, l'automatisation et la création de systèmes intelligents.
+## Projects
+**Professional project: AI development**
 
-Projets Personnels
-Développement de jeux vidéo (Dungeon Crawler sur Roblox) : J’ai un projet en cours où je développe un jeu vidéo de type dungeon crawler sur la plateforme Roblox. C’est un projet qui combine ma passion pour la création de jeux et l'innovation technologique.
+My current plan is to continue my studies and pursue a master's degree in AI. I'm especially interested in applications of artificial intelligence for data processing, automation and creating intelligent systems.
 
-Maîtrise FIDE : En tant que joueur d’échecs, je vise à obtenir le titre de Maître FIDE. C’est un objectif qui nécessite une pratique constante, des compétitions et une grande maîtrise stratégique.
+**Personal projects**
+- **Video game development (Dungeon Crawler on Roblox):** I'm working on a dungeon crawler game on the Roblox platform. This combines my passion for creating games with technological innovation.
+- **FIDE Master title:** As a chess player, I aim to obtain the FIDE Master title. This goal requires constant practice, competitions and strong strategic skills.
+- **Vtubing on Twitch:** I'm also interested in Vtubing to stream chess games on Twitch. This project is still in the planning phase but I hope to start soon to combine my passion for chess and streaming.
 
-Vtubing sur Twitch : Je suis également intéressé par le Vtubing, notamment pour diffuser des parties d’échecs sur Twitch. Ce projet est encore en phase de réflexion, mais je souhaite m'y lancer dans un avenir proche pour combiner ma passion pour les échecs et l'univers du streaming.
+## Why this portfolio?
+This site is my space to share my projects, background and achievements. It represents a showcase of what I've done so far and where I'm heading. I hope you'll find interesting elements here, useful information and maybe future collaboration opportunities.
 
-Pourquoi ce portfolio ?
-Ce site est mon espace pour partager mes projets, mon parcours et mes réalisations. Il représente une vitrine de ce que j'ai accompli jusqu’à présent et de ce vers quoi je m'oriente pour l'avenir. J'espère que vous trouverez ici des éléments intéressants, des informations utiles et, pourquoi pas, des collaborations possibles pour des projets à venir.
+If you have questions or wish to discuss a collaboration opportunity, feel free to contact me via the Contact section.
 
-Si vous avez des questions ou souhaitez discuter d’une opportunité de collaboration, n’hésitez pas à me contacter via la section Contact.
-
-Merci de votre visite et à bientôt !
+Thanks for visiting and see you soon!
