@@ -1,4 +1,5 @@
 Bienvenue sur mon Portfolio !
+Une version anglaise est disponible. Utilisez l'icône en forme de globe pour changer de langue.
 Je m'appelle Antonin Le Donné, et je suis un passionné de technologie, d'intelligence artificielle et de jeux vidéo. Ce site est un reflet de mes intérêts, de mes projets et de mon parcours académique et professionnel. Vous y trouverez mes réalisations, ainsi que des informations sur les projets qui me motivent actuellement et ceux que je souhaite entreprendre à l'avenir.
 
 Qui suis-je ?

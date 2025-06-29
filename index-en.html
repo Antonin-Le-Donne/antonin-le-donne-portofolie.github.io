@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio d'Antonin Le Donné</title>
+    <title>Antonin Le Donné's Portfolio</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 <style>
@@ -100,19 +100,19 @@ body.dark .bg-white .text-gray-700 {
             <span class="text-blue-400">ALD</span>.
         </div>
         <div class="flex items-center space-x-4">
-            <button id="dark-mode-toggle" class="text-blue-400 hover:text-blue-600 text-2xl focus:outline-none" title="Activer/désactiver le mode sombre">
+            <button id="dark-mode-toggle" class="text-blue-400 hover:text-blue-600 text-2xl focus:outline-none" title="Toggle dark mode">
                 <i id="dark-mode-icon" class="fa-regular fa-moon"></i>
             </button>
-            <button id="lang-toggle" class="text-blue-400 hover:text-blue-600 text-2xl focus:outline-none" title="Changer de langue">
+            <button id="lang-toggle" class="text-blue-400 hover:text-blue-600 text-2xl focus:outline-none" title="Switch language">
                 <i class="fa-solid fa-globe"></i>
             </button>
         </div>
         <div class="hidden md:flex flex-1 justify-end space-x-8">
-            <a href="#accueil" class="nav-link active">Accueil</a>
-            <a href="#apropos" class="nav-link">À propos</a>
-            <a href="#projets" class="nav-link">Projets</a>
-            <a href="#objectifs" class="nav-link">Objectifs</a>
-            <a href="#competences" class="nav-link">Compétences</a>
+            <a href="#accueil" class="nav-link active">Home</a>
+            <a href="#apropos" class="nav-link">About</a>
+            <a href="#projets" class="nav-link">Projects</a>
+            <a href="#objectifs" class="nav-link">Goals</a>
+            <a href="#competences" class="nav-link">Skills</a>
             <a href="#contact" class="nav-link mr-0 pr-0">Contact</a>
         </div>
         <button id="menu-toggle" class="md:hidden focus:outline-none">
@@ -124,18 +124,18 @@ body.dark .bg-white .text-gray-700 {
     <!-- Mobile menu -->
     <div id="mobile-menu" class="hidden md:hidden bg-white shadow-md">
         <div class="container mx-auto px-6 py-3 flex flex-col space-y-4">
-            <a href="#accueil" class="mobile-link">Accueil</a>
-            <a href="#apropos" class="mobile-link">À propos</a>
-            <a href="#projets" class="mobile-link">Projets</a>
-            <a href="#objectifs" class="mobile-link">Objectifs</a>
-            <a href="#competences" class="mobile-link">Compétences</a>
+            <a href="#accueil" class="mobile-link">Home</a>
+            <a href="#apropos" class="mobile-link">About</a>
+            <a href="#projets" class="mobile-link">Projects</a>
+            <a href="#objectifs" class="mobile-link">Goals</a>
+            <a href="#competences" class="mobile-link">Skills</a>
             <a href="#contact" class="mobile-link">Contact</a>
         </div>
     </div>
 </header>
 
     <!-- Ajoute pt-24 sur la première section pour compenser le header fixe -->
-    <!-- Accueil -->
+    <!-- Home -->
 <section id="accueil" class="min-h-screen flex items-center justify-center bg-bluegray text-white pt-24">
     <div class="container mx-auto px-6 py-16 flex flex-col md:flex-row items-center">
         <div class="md:w-1/2 flex flex-col items-start space-y-8">
@@ -147,13 +147,13 @@ body.dark .bg-white .text-gray-700 {
             </p>
             <div class="flex space-x-4">
                 <a href="#contact" class="bg-blue-400 hover:bg-blue-500 text-white font-medium py-2 px-6 rounded-md transition flex items-center">
-                    Me contacter
+                    Contact me
                     <svg class="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
                     </svg>
                 </a>
                 <a href="#projets" class="border border-white hover:bg-white hover:text-blue-900 text-white font-medium py-2 px-6 rounded-md transition duration-300">
-                    Voir mes projets
+                    View my projects
                 </a>
             </div>
         </div>
@@ -175,15 +175,15 @@ body.dark .bg-white .text-gray-700 {
     </div>
 </section>
 
-<!-- À propos -->
+<!-- About -->
 <section id="apropos" class="py-20 bg-white section-fade">
     <div class="container mx-auto px-6">
         <div class="flex flex-col items-center">
-            <h2 class="text-3xl font-bold text-blue-900 mb-2">À propos</h2>
+            <h2 class="text-3xl font-bold text-blue-900 mb-2">About</h2>
             <div class="w-16 h-1 bg-blue-400 mb-8 mx-auto"></div>
         </div>
         <div class="flex flex-col md:flex-row items-center md:items-stretch gap-8">
-            <!-- Carte "Qui suis-je ?" avec effet carte dans une carte -->
+            <!-- Carte "Who am I?" avec effet carte dans une carte -->
             <div class="md:w-1/2 flex items-center justify-center">
                 <div class="relative w-full max-w-md">
                     <!-- Bordure bleue en L, allongée, arrondie et connectée à la carte -->
@@ -203,7 +203,7 @@ body.dark .bg-white .text-gray-700 {
                             <svg class="w-10 h-10 text-blue-400 mb-4 mx-auto" fill="currentColor" viewBox="0 0 20 20">
                                 <path fill-rule="evenodd" d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z" clip-rule="evenodd"></path>
                             </svg>
-                            <h3 class="text-xl font-semibold mb-2 text-center">Qui suis-je ?</h3>
+                            <h3 class="text-xl font-semibold mb-2 text-center">Who am I?</h3>
                             <p class="text-gray-600 leading-relaxed text-center">
                                 Étudiant en BUT Informatique à l'IUT de Blagnac, je suis actuellement en recherche d'alternance.<br>
                                 Mon objectif est de devenir développeur spécialisé en intelligence artificielle, un domaine qui me passionne particulièrement pour ses applications innovantes et son potentiel transformateur.
@@ -215,7 +215,7 @@ body.dark .bg-white .text-gray-700 {
             <!-- Qualités (inchangé) -->
             <div class="md:w-1/2 flex items-center">
                 <div class="bg-white p-8 rounded-lg shadow-none">
-                    <h3 class="text-xl font-semibold text-blue-900 mb-6 border-b-2 border-blue-100 pb-2">Mes qualités</h3>
+                    <h3 class="text-xl font-semibold text-blue-900 mb-6 border-b-2 border-blue-100 pb-2">My qualities</h3>
                     <ul class="space-y-5">
                         <li class="flex items-start">
                             <span class="flex-shrink-0 bg-blue-400 text-white rounded-full p-2 mr-4">
@@ -268,11 +268,11 @@ body.dark .bg-white .text-gray-700 {
     </div>
 </section>
 
-<!-- Projets -->
+<!-- Projects -->
 <section id="projets" class="py-20 bg-gray-50 section-fade">
     <div class="container mx-auto px-6">
         <div class="flex flex-col items-center mb-12">
-            <h2 class="text-3xl font-bold text-blue-900 mb-2 text-center">Mes projets</h2>
+            <h2 class="text-3xl font-bold text-blue-900 mb-2 text-center">My projects</h2>
             <div class="w-16 h-1 bg-blue-400 mb-8 mx-auto"></div>
             <p class="text-gray-600 text-center max-w-2xl">
                 Découvrez les projets sur lesquels j'ai travaillé, reflétant ma passion pour le développement et l'innovation.
@@ -289,7 +289,7 @@ body.dark .bg-white .text-gray-700 {
                 <i class="fa-solid fa-chevron-right"></i>
             </button>
 
-            <!-- Groupe 1 : Projets de programmation -->
+            <!-- Groupe 1 : Projects de programmation -->
             <div id="prog-projects" class="">
               <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-start">
                 <!-- Projet 1: Chess App -->
@@ -310,7 +310,7 @@ body.dark .bg-white .text-gray-700 {
                       <span class="bg-blue-100 text-blue-800 text-xs font-medium px-2.5 py-0.5 rounded">Échecs</span>
                     </div>
                     <button id="toggle-chess-details" class="text-blue-500 hover:text-blue-700 font-medium flex items-center transition duration-300 focus:outline-none">
-                      <span>Voir les détails</span>
+                      <span>See details</span>
                       <svg class="w-4 h-4 ml-1 transition-transform duration-300" id="arrow-chess-details" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
                       </svg>
@@ -329,7 +329,7 @@ body.dark .bg-white .text-gray-700 {
                           L’application est pensée pour allier esthétique, pédagogie et performance. Que vous soyez amateur ou joueur confirmé, Chess App s’adapte à votre niveau pour une expérience optimale.
                         </p>
                         <a href="https://github.com/Antonin-Le-Donne/Chess-App" target="_blank" class="inline-flex items-center text-blue-500 hover:text-blue-700 font-medium mt-2">
-                          Voir le projet sur GitHub
+                          View the project on GitHub
                           <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
                           </svg>
@@ -356,7 +356,7 @@ body.dark .bg-white .text-gray-700 {
                       <span class="bg-blue-100 text-blue-800 text-xs font-medium px-2.5 py-0.5 rounded">Linux</span>
                     </div>
                     <button id="toggle-sae-details" class="text-blue-500 hover:text-blue-700 font-medium flex items-center transition duration-300 focus:outline-none">
-                      <span>Voir les détails</span>
+                      <span>See details</span>
                       <svg class="w-4 h-4 ml-1 transition-transform duration-300" id="arrow-sae-details" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
                       </svg>
@@ -375,7 +375,7 @@ body.dark .bg-white .text-gray-700 {
                 </div>
               </div>
             </div>
-            <!-- Groupe 2 : Projets de vie (masqué par défaut) -->
+            <!-- Groupe 2 : Projects de vie (masqué par défaut) -->
             <div id="life-projects" class="hidden">
   <div class="flex flex-nowrap gap-8 overflow-x-auto pb-12 w-full items-start">
     <!-- Carte Maître FIDE -->
@@ -389,7 +389,7 @@ body.dark .bg-white .text-gray-700 {
           Objectif de vie : atteindre le niveau de Maître FIDE aux échecs, participer à des tournois et progresser constamment.
         </p>
         <button id="toggle-fide-details" class="text-blue-500 hover:text-blue-700 font-medium flex items-center transition duration-300 focus:outline-none">
-          <span>Voir les détails</span>
+          <span>See details</span>
           <svg class="w-4 h-4 ml-1 transition-transform duration-300" id="arrow-fide-details" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
           </svg>
@@ -406,7 +406,7 @@ body.dark .bg-white .text-gray-700 {
               Ce projet de vie demande rigueur, passion et persévérance, avec un engagement constant dans la progression échiquéenne.
             </p>
             <a href="https://ratings.fide.com/profile/80442099" target="_blank" class="inline-flex items-center text-blue-500 hover:text-blue-700 font-medium mt-2">
-              Voir mon profil FIDE
+              View my FIDE profile
               <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
               </svg>
@@ -426,7 +426,7 @@ body.dark .bg-white .text-gray-700 {
           Partager mes passions et connaissances via la création de contenu en ligne, notamment en tant que VTuber.
         </p>
         <button id="toggle-vtuber-details" class="text-blue-500 hover:text-blue-700 font-medium flex items-center transition duration-300 focus:outline-none">
-          <span>Voir les détails</span>
+          <span>See details</span>
           <svg class="w-4 h-4 ml-1 transition-transform duration-300" id="arrow-vtuber-details" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
           </svg>
@@ -458,7 +458,7 @@ body.dark .bg-white .text-gray-700 {
           Objectif : atteindre 2500 Elo sur toutes les cadences en ligne (sauf classique).
         </p>
         <button id="toggle-onlinechess-details" class="text-blue-500 hover:text-blue-700 font-medium flex items-center transition duration-300 focus:outline-none">
-          <span>Voir les détails</span>
+          <span>See details</span>
           <svg class="w-4 h-4 ml-1 transition-transform duration-300" id="arrow-onlinechess-details" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
           </svg>
@@ -531,7 +531,7 @@ body.dark .bg-white .text-gray-700 {
     </div>
 </section>
 
-<!-- Objectifs -->
+<!-- Goals -->
 <section id="objectifs" class="py-20 bg-white section-fade">
     <div class="container mx-auto px-6">
         <div class="flex flex-col items-center mb-12">
@@ -594,7 +594,7 @@ body.dark .bg-white .text-gray-700 {
     </div>
 </section>
 
-<!-- Compétences -->
+<!-- Skills -->
 <section id="competences" class="py-20 bg-gray-50 section-fade">
     <div class="container mx-auto px-6">
         <div class="flex flex-col items-center mb-12">
@@ -817,7 +817,7 @@ body.dark .bg-white .text-gray-700 {
     </span>
     <span>
         <span class="font-semibold text-blue-900">LinkedIn</span><br>
-        <span class="text-blue-500 group-hover:underline">Voir mon profil</span>
+        <span class="text-blue-500 group-hover:underline">View my profile</span>
     </span>
 </a>
     <a href="https://github.com/Antonin-Le-Donne" target="_blank" class="flex items-center space-x-4 group">
