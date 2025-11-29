@@ -1,0 +1,72 @@
+= 🌐 Antonin Le Donné — Portfolio
+:toc: macro
+:toc-title: Sommaire
+:icons: font
+:sectnums:
+:source-highlighter: rouge
+
+toc::[]
+
+[quote, "Antonin Le Donné"]
+____
+*« L'interactivité, la créativité et la précision technique sont les piliers de mon univers numérique. »*
+____
+
+== ✨ Bienvenue
+
+Bienvenue sur mon *portfolio interactif*, un espace conçu pour refléter mon **identité, mes projets et mes passions**.  
+Ce site est bien plus qu'une simple vitrine — c’est une **expérience web immersive** où se mêlent design, IA et exploration.
+
+---
+
+== 👤 À propos de moi
+
+Je suis **Antonin Le Donné**, étudiant en **informatique à l’IUT de Blagnac**.  
+Je me spécialise dans le **développement** et l’**intelligence artificielle**, domaines qui me passionnent pour leurs applications innovantes :  
+traitement de données, automatisation et création de systèmes intelligents.
+
+En dehors du code, je suis :  
+- ♟️ *Joueur d’échecs* cherchant à obtenir le titre de **FIDE Master (FM)**  
+- 🎮 *Passionné de jeux vidéo*, notamment les *souls-like* et *metroidvania*  
+- 💡 *Créateur dans l’âme*, aimant concevoir des expériences à la frontière du jeu, de la réflexion et de la technologie  
+
+---
+
+== 💻 À propos du site
+
+Mon portfolio a été entièrement repensé pour devenir un **projet expérimental** autour de l’interactivité et de l’IA.
+
+[cols="1,3", frame=none, grid=none]
+|===
+| 🌙 | *Thèmes dynamiques* (clair/sombre, secrets et transitions fluides)
+| 🧠 | *IA intégrée* : l’interface réagit à l’utilisateur avec des messages contextuels
+| 🏆 | *Succès déblocables* : découvrez des récompenses cachées au fil de la navigation
+| 🕹️ | *Easter Eggs* : secrets, combinaisons clavier et interactions surprenantes
+| 🪞 | *Animations immersives* : curseur personnalisé, effets de survol, transitions douces
+| 🔐 | *Sauvegarde locale* : conservation du thème, de la langue et des succès
+|===
+
+Chaque détail est pensé comme une expérience :  
+du **déplacement du curseur** à la **progression visuelle du scroll**, tout raconte une part de mon univers numérique.
+
+---
+
+== 🚀 Objectifs
+
+[cols="1,3",frame=none,grid=none]
+|===
+| 🎓 | Poursuivre vers un *Master en Intelligence Artificielle*  
+| 🧩 | Concevoir des *projets fusionnant design, IA et interactivité*  
+| ♟️ | Atteindre le *titre de FIDE Master (FM)* aux échecs  
+| 🕹️ | Créer un *jeu narratif et immersif* mêlant stratégie et technologie  
+|===
+
+---
+
+== 📬 Me contacter
+
+📧 **ledonneantoni@gmail.com**  
+💼 **Portfolio en ligne :** https://antoninledonne.fr  
+🐙 **GitHub :** https://github.com/DeltaKnight90  
+
+Merci pour votre visite — et bonne exploration ! 👀🔥
