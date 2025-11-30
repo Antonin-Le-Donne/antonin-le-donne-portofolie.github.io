@@ -945,3 +945,31 @@ window.addEventListener('scroll', () => {
         }, 30);
     }
 });
+
+// === FORMULAIRE CONTACT SANS REDIRECTION ===
+document.addEventListener('DOMContentLoaded', () => {
+    const form = document.getElementById('contact-form');
+    if (!form) return;
+
+    form.addEventListener('submit', async (e) => {
+        e.preventDefault();
+        const formData = new FormData(form);
+
+        try {
+            const response = await fetch(form.action, {
+                method: form.method,
+                headers: { 'Accept': 'application/json' },
+                body: formData
+            });
+
+            if (response.ok) {
+                showToast("Message envoyé avec succès !", "fa-solid fa-check");
+                form.reset();
+            } else {
+                showToast("Une erreur est survenue. Réessayez plus tard.", "fa-solid fa-triangle-exclamation");
+            }
+        } catch {
+            showToast("Impossible d’envoyer le message. Vérifiez votre connexion.", "fa-solid fa-xmark");
+        }
+    });
+});
