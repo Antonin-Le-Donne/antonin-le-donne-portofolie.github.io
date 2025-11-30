@@ -467,49 +467,63 @@
         </div>
     </section>
 
-    <section id="contact" class="section">
-        <div class="container contact-wrapper">
-            <div class="contact-info reveal">
-                <h2 data-fr="Me contacter" data-en="Contact Me">Me contacter</h2>
-                <p>
-                    <span class="lang-fr">Une idée de projet ou une opportunité d'alternance ? Discutons-en.</span>
-                    <span class="lang-en hidden">A project idea or an apprenticeship opportunity? Let's talk.</span>
-                </p>
-                <div class="contact-links">
-                    <a href="mailto:ledonneantoni@gmail.com" class="contact-item hover-trigger">
-                        <i class="fa-solid fa-envelope"></i> ledonneantoni@gmail.com
-                    </a>
-                    <a href="tel:+33786119376" class="contact-item hover-trigger">
-                        <i class="fa-solid fa-phone"></i> +33 7 86 11 93 76
-                    </a>
-                </div>
-                <div class="social-links big-icons">
-                    <a href="https://www.linkedin.com/in/antonin-le-donné-58a276344/" target="_blank" class="hover-trigger"><i class="fa-brands fa-linkedin"></i></a>
-                    <a href="https://github.com/Antonin-Le-Donne" target="_blank" class="hover-trigger"><i class="fa-brands fa-github"></i></a>
-                    <a href="https://discordapp.com/users/512398298557054991" target="_blank" class="hover-trigger"><i class="fa-brands fa-discord"></i></a>
-                </div>
+   <section id="contact" class="section">
+    <div class="container contact-wrapper">
+        <!-- === INFOS CONTACT === -->
+        <div class="contact-info reveal">
+            <h2 data-fr="Me contacter" data-en="Contact Me">Me contacter</h2>
+            <p>
+                <span class="lang-fr">Une idée de projet ou une opportunité d'alternance ? Discutons-en.</span>
+                <span class="lang-en hidden">A project idea or an apprenticeship opportunity? Let's talk.</span>
+            </p>
+
+            <div class="contact-links">
+                <a href="mailto:ledonneantoni@gmail.com" class="contact-item hover-trigger">
+                    <i class="fa-solid fa-envelope"></i> ledonneantoni@gmail.com
+                </a>
+                <a href="tel:+33786119376" class="contact-item hover-trigger">
+                    <i class="fa-solid fa-phone"></i> +33 7 86 11 93 76
+                </a>
             </div>
 
-            <form action="https://formspree.io/f/myzwooyy" method="POST" class="contact-form card reveal delay-200 spotlight hover-trigger">
-                <div class="form-group">
-                    <label for="name" data-fr="Nom" data-en="Name">Nom</label>
-                    <input type="text" id="name" name="name" required class="hover-trigger">
-                </div>
-                <div class="form-group">
-                    <label for="email">Email</label>
-                    <input type="email" id="email" name="email" required class="hover-trigger">
-                </div>
-                <div class="form-group">
-                    <label for="message">Message</label>
-                    <textarea id="message" name="message" rows="5" required class="hover-trigger"></textarea>
-                </div>
-                <button type="submit" class="btn btn-primary w-full magnetic-btn hover-trigger">
-                    <span data-fr="Envoyer" data-en="Send">Envoyer</span> <i class="fa-solid fa-paper-plane"></i>
-                </button>
-            </form>
+            <div class="social-links big-icons">
+                <a href="https://www.linkedin.com/in/antonin-le-donné-58a276344/" target="_blank" class="hover-trigger"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/Antonin-Le-Donne" target="_blank" class="hover-trigger"><i class="fa-brands fa-github"></i></a>
+                <a href="https://discordapp.com/users/512398298557054991" target="_blank" class="hover-trigger"><i class="fa-brands fa-discord"></i></a>
+            </div>
         </div>
-    </section>
 
+        <!-- === FORMULAIRE === -->
+        <form id="contact-form"
+              action="https://formspree.io/f/myzwooyy"
+              method="POST"
+              class="contact-form card reveal delay-200 spotlight hover-trigger">
+
+            <div class="form-group">
+                <label for="name" data-fr="Nom" data-en="Name">Nom</label>
+                <input type="text" id="name" name="name" required class="hover-trigger">
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required class="hover-trigger">
+            </div>
+
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" required class="hover-trigger"></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary w-full magnetic-btn hover-trigger">
+                <span data-fr="Envoyer" data-en="Send">Envoyer</span>
+                <i class="fa-solid fa-paper-plane"></i>
+            </button>
+        </form>
+    </div>
+</section>
+
+<!-- === TOASTS === -->
+<div id="toast-container"></div>
     <footer>
         <div class="container footer-content">
             <p>&copy; 2024 Antonin Le Donné. All rights reserved.</p>
@@ -522,3 +536,4 @@
     <script src="script.js"></script>
 </body>
 </html>
+
