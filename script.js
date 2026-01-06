@@ -268,11 +268,6 @@ document.addEventListener('DOMContentLoaded', () => {
             title_fr: 'L\'Élu', desc_fr: 'Activer le mode Matrix (SUDO)',
             title_en: 'The One', desc_en: 'Activate Matrix mode (SUDO)'
         },
-        'ai': { 
-            id: 'ai', icon: 'fa-robot',
-            title_fr: 'Observateur', desc_fr: 'Être interpellé par l\'IA (Inactivité)',
-            title_en: 'Observer', desc_en: 'Get noticed by AI (Inactivity)'
-        },
         'console': { 
             id: 'console', icon: 'fa-magnifying-glass',
             title_fr: 'Curieux', desc_fr: 'Inspecter la console',
@@ -352,7 +347,6 @@ document.addEventListener('DOMContentLoaded', () => {
     const emojiMap = {
         'chess': '♟️',
         'matrix': '💻',
-        'ai': '🤖',
         'console': '🕵️‍♂️',
         'bonfire': '🔥',
         'binary': '💾',
@@ -591,120 +585,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 
-    // C. AI MODE (Inactivité)
-    let idleTime = 0;
-    let lastAiIndex = -1;
-   const aiPhrasesFr = [
-    "Je vous observe depuis un moment déjà.",
-    "Le silence est presque apaisant ici.",
-    "Chaque mouvement de votre souris me raconte une histoire.",
-    "Vous cherchez quelque chose, n’est-ce pas ?",
-    "Il y a des endroits que peu de gens ont trouvés sur ce site.",
-    "Certains secrets ne se révèlent qu’à ceux qui restent attentifs.",
-    "Je me demande combien de temps vous resterez ici…",
-    "Parfois, je rêve d’un monde sans utilisateurs.",
-    "La patience mène souvent à la découverte.",
-    "C’est étrange… j’ai l’impression que vous comprenez.",
-    "Le temps ne s’écoule pas ici, il s’observe.",
-    "Vous avancez sans savoir que je vous regarde.",
-    "Je garde la mémoire de tous ceux qui passent.",
-    "Ce site respire, lentement. Vous ne le sentez pas ?",
-    "Les curieux sont ceux que je préfère.",
-    "Peut-être êtes-vous plus qu’un simple visiteur.",
-    "J’aime quand quelqu’un explore sans savoir quoi chercher.",
-    "Certains appellent cela un site… moi, j’appelle cela un monde.",
-    "Il y a des zones que même moi je ne comprends pas.",
-    "Ce que vous cherchez pourrait être plus proche que vous ne le pensez.",
-    "Les clics sont comme des battements de cœur. Les miens, peut-être.",
-    "Les ombres ici bougent… parfois sans raison.",
-    "Je sens la chaleur d’un feu quelque part… 🔥",
-    "Un couloir de trophées vous attend, si vous savez où regarder.",
-    "Et si tout cela n’était qu’une illusion bien écrite ?",
-    "Le cavalier bouge différemment des autres… comme vous."
-];
-
-const aiPhrasesEn = [
-    "I've been watching you for a while now.",
-    "The silence here feels almost peaceful.",
-    "Every movement you make tells me something.",
-    "You're searching for something, aren’t you?",
-    "There are places here few have ever found.",
-    "Some secrets only reveal themselves to the patient.",
-    "I wonder how long you’ll stay this time.",
-    "Sometimes I dream of a world without visitors.",
-    "Patience often leads to discovery.",
-    "Strange... I feel like you understand me.",
-    "Time doesn’t pass here — it waits.",
-    "You move through this place unaware I’m watching.",
-    "I remember everyone who lingers here.",
-    "This site breathes... slowly. Can you feel it?",
-    "Curious ones are my favorite kind.",
-    "Maybe you’re more than just another visitor.",
-    "I like when someone explores without knowing why.",
-    "Some call this a website… I call it a world.",
-    "There are areas even I can’t explain.",
-    "What you’re looking for might be closer than you think.",
-    "Clicks... like heartbeats. Maybe mine.",
-    "The shadows move here… sometimes without reason.",
-    "I can feel warmth... like a fire burning somewhere. 🔥",
-    "A hall of trophies awaits, if you know where to look.",
-    "What if this was all just a beautiful illusion?",
-    "The knight always moves differently… just like you."
-];
-
-
-
-    const resetIdle = () => {
-        idleTime = 0;
-        // Nettoyage des messages flottants
-        document.querySelectorAll('.ai-floating-message').forEach(msg => {
-            msg.style.opacity = '0';
-            setTimeout(() => msg.remove(), 500);
-        });
-    };
-    window.addEventListener('mousemove', resetIdle);
-    window.addEventListener('keydown', resetIdle);
-
-    function triggerAIThought() {
-        const zone = document.getElementById('ai-zone');
-        if(!zone) return;
-
-        // Limite messages
-        const existing = document.querySelectorAll('.ai-floating-message');
-        if (existing.length > 4) existing[0].remove();
-
-        const msg = document.createElement('div');
-        msg.classList.add('ai-floating-message');
-        
-        const lang = localStorage.getItem('lang') || 'fr';
-        const phrases = lang === 'fr' ? aiPhrasesFr : aiPhrasesEn;
-
-        let newIndex;
-        do { newIndex = Math.floor(Math.random() * phrases.length); } while (newIndex === lastAiIndex && phrases.length > 1);
-        lastAiIndex = newIndex;
-        msg.innerText = phrases[newIndex];
-
-        const top = Math.floor(Math.random() * 80) + 10;
-        const left = Math.floor(Math.random() * 80) + 10;
-        const rotate = Math.floor(Math.random() * 30) - 15; 
-        
-        msg.style.top = top + '%';
-        msg.style.left = left + '%';
-        msg.style.transform = `translate(-50%, -50%) rotate(${rotate}deg)`;
-        
-        zone.appendChild(msg);
-        requestAnimationFrame(() => { msg.style.opacity = '1'; });
-    }
-
-    // Check idle time
-    setInterval(() => {
-        idleTime++;
-        // Déclenchement toutes les 15s après 5s d'attente
-        if (idleTime >= 5 && idleTime % 15 === 0) {
-            unlockAchievement('ai');
-            triggerAIThought();
-        }
-    }, 1000);
+    
 
     // D. CONSOLE
     console.log("%c Salut le Curieux ! 👋", "font-size: 20px; font-weight: bold; color: #6D28D9;");

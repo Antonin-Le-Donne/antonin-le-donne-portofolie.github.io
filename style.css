@@ -64,19 +64,6 @@ h1, h2, h3, h4 { font-family: var(--font-heading); font-weight: 700; } a { text-
     transform: rotate(90deg) scale(1.2);
 }
 
-
-/* --- AI FLOATING MESSAGES --- */
-#ai-zone { position: fixed; top: 0; left: 0; width: 100%; height: 100%; pointer-events: none; z-index: 9000; overflow: hidden; }
-.ai-floating-message {
-    position: absolute; font-family: var(--font-mono); color: var(--accent-secondary); font-size: 1.1rem;
-    text-shadow: 0 0 10px var(--accent-secondary); background: rgba(3, 0, 20, 0.9);
-    padding: 8px 15px; border: 1px solid var(--accent-secondary); border-radius: 4px;
-    opacity: 0; transition: opacity 0.5s; white-space: nowrap;
-    box-shadow: 0 0 15px rgba(14, 165, 233, 0.3);
-    animation: floatMessage 6s ease-in-out infinite;
-}
-@keyframes floatMessage { 0%, 100% { transform: translate(-50%, -50%) translateY(0); } 50% { transform: translate(-50%, -50%) translateY(-10px); } }
-
 /* --- MATRIX MODE --- */
 body.matrix-mode {
     --bg-primary: #000000 !important; --bg-secondary: #0a0a0a !important;
