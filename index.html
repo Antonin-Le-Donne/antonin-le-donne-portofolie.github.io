@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     <title>Antonin Le Donné | Développeur & Passionné d'IA</title>
-    <meta name="description" content="Portfolio d'Antonin Le Donné, étudiant en BUT Informatique à Blagnac. Découvrez mes projets de développement Python, Java et mon parcours vers l'Intelligence Artificielle.">
+    <meta name="description" content="Portfolio d'Antonin Le Donné, étudiant en BUT Informatique à Blagnac. Découvrez mes projets de développement Vue.js, Angular, TypeScript, Python et mon parcours vers le front-end.">
     <meta name="author" content="Antonin Le Donné">
     <meta name="google-site-verification" content="OfkmZIqfzC9UdCINkRpQkXkJ9_DkKQauDgx7NTNDb3c" />
 
@@ -13,21 +13,16 @@
     <meta property="og:description" content="Développeur curieux en route vers l'IA et la performance stratégique.">
     <meta property="og:image" content="images/moi.jpg"> <meta property="og:type" content="website">
 
-    <link rel="icon" type="image/png" href="images/cursor.png">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='50' fill='%238B5CF6'/><text x='50' y='68' font-size='55' text-anchor='middle' fill='white' font-family='sans-serif' font-weight='bold'>A</text></svg>">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&family=Space+Grotesk:wght@500;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body class="dark-theme">
-
-    <div id="custom-cursor">
-        <div class="cursor-content">
-            <img src="images/cursor.png" alt="Curseur" class="cursor-img">
-        </div>
-    </div>
 
     <div id="toast-container"></div>
 
@@ -67,6 +62,7 @@
             <nav class="desktop-nav">
                 <a href="#accueil" class="nav-link active hover-trigger" data-fr="Accueil" data-en="Home">Accueil</a>
                 <a href="#apropos" class="nav-link hover-trigger" data-fr="À propos" data-en="About">À propos</a>
+                <a href="#experience" class="nav-link hover-trigger" data-fr="Expérience" data-en="Experience">Expérience</a>
                 <a href="#projets" class="nav-link hover-trigger" data-fr="Projets" data-en="Projects">Projets</a>
                 <a href="#objectifs" class="nav-link hover-trigger" data-fr="Objectifs" data-en="Goals">Objectifs</a>
                 <a href="#competences" class="nav-link hover-trigger" data-fr="Compétences" data-en="Skills">Compétences</a>
@@ -83,6 +79,7 @@
         <div id="mobile-menu" class="mobile-menu hidden">
             <a href="#accueil" class="mobile-link" data-fr="Accueil" data-en="Home">Accueil</a>
             <a href="#apropos" class="mobile-link" data-fr="À propos" data-en="About">À propos</a>
+            <a href="#experience" class="mobile-link" data-fr="Expérience" data-en="Experience">Expérience</a>
             <a href="#projets" class="mobile-link" data-fr="Projets" data-en="Projects">Projets</a>
             <a href="#objectifs" class="mobile-link" data-fr="Objectifs" data-en="Goals">Objectifs</a>
             <a href="#competences" class="mobile-link" data-fr="Compétences" data-en="Skills">Compétences</a>
@@ -139,8 +136,8 @@
                     <div class="card-icon"><i class="fa-solid fa-user-astronaut"></i></div>
                     <h3 data-fr="Qui suis-je ?" data-en="Who am I?">Qui suis-je ?</h3>
                     <p class="text-content">
-                        <span class="lang-fr">Étudiant en BUT Informatique à l'IUT de Blagnac, je suis actuellement en recherche d'alternance. Mon objectif est de devenir développeur spécialisé en intelligence artificielle, un domaine qui me passionne pour ses applications innovantes.</span>
-                        <span class="lang-en hidden">Computer Science student at the IUT of Blagnac, currently looking for an apprenticeship. My goal is to become a developer specialized in artificial intelligence, a field I am passionate about for its innovative applications.</span>
+                        <span class="lang-fr">Étudiant en 3ème année de BUT Informatique à l'IUT de Blagnac, je suis orienté développement front-end et actuellement en recherche d'alternance. Mon objectif est de devenir développeur spécialisé en intelligence artificielle, un domaine qui me passionne pour ses applications innovantes.</span>
+                        <span class="lang-en hidden">Third-year Computer Science student at the IUT of Blagnac, focused on front-end development and currently looking for an apprenticeship. My goal is to become a developer specialized in artificial intelligence, a field I am passionate about for its innovative applications.</span>
                     </p>
                 </div>
 
@@ -184,7 +181,47 @@
         </div>
     </section>
 
-    <section id="projets" class="section bg-secondary">
+    <section id="experience" class="section bg-secondary">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="gradient-title glitch-hover" data-text-fr="Expérience" data-text-en="Experience" data-fr="Expérience" data-en="Experience">Expérience</h2>
+                <div class="line"></div>
+            </div>
+
+            <div class="card project-card reveal spotlight hover-trigger" style="max-width: 780px; margin: 0 auto;">
+                <div class="project-header-visual gradient-3" style="height: 90px; font-size: 2.2rem;">
+                    <i class="fa-solid fa-cube"></i>
+                    <div class="header-overlay-text">Mars – Mai 2026</div>
+                </div>
+                <div class="card-body">
+                    <h3>
+                        <span class="lang-fr">Stage — Vectory3 · Voorburg, Pays-Bas</span>
+                        <span class="lang-en hidden">Internship — Vectory3 · Voorburg, Netherlands</span>
+                    </h3>
+                    <div class="tags">
+                        <span>Python</span><span>Blender API</span><span>bpy</span><span>BMesh</span>
+                    </div>
+                    <p class="card-desc">
+                        <span class="lang-fr">Développement de <strong>Metrix – Cylinder Standalone</strong>, un addon Blender Python de calcul de métriques anatomiques sur scans 3D.</span>
+                        <span class="lang-en hidden">Developed <strong>Metrix – Cylinder Standalone</strong>, a Blender Python addon for computing anatomical metrics on 3D scans.</span>
+                    </p>
+                    <button class="expand-btn hover-trigger" onclick="toggleDetails('exp-vectory3-details', this)">
+                        <span class="lang-fr">Détails</span><span class="lang-en hidden">Details</span> <i class="fa-solid fa-chevron-down"></i>
+                    </button>
+                    <div id="exp-vectory3-details" class="details-content hidden">
+                        <ul class="styled-list">
+                            <li data-fr="Pipeline de traitement 3D en 6 étapes" data-en="6-step 3D processing pipeline"></li>
+                            <li data-fr="Calcul de volume, surface et circonférence par zone anatomique" data-en="Volume, surface area and circumference per anatomical zone"></li>
+                            <li data-fr="Système d'export multi-fichiers ZIP" data-en="Multi-file ZIP export system"></li>
+                            <li data-fr="Documentation technique et guide utilisateur" data-en="Technical documentation and user guide"></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projets" class="section">
         <div class="container">
             <div class="section-header">
                 <h2 class="gradient-title glitch-hover" data-text-fr="Mes projets" data-text-en="My projects" data-fr="Mes projets" data-en="My projects">Mes projets</h2>
@@ -297,8 +334,8 @@
                             <span>PHP</span><span>MySQL</span><span>JS</span>
                         </div>
                         <p class="card-desc">
-                            <span class="lang-fr">Création d'une plateforme e-commerce moderne et immersive.</span>
-                            <span class="lang-en hidden">Creation of a modern and immersive e-commerce platform.</span>
+                            <span class="lang-fr">Création d'une plateforme e-commerce moderne pour un client fictif (projet académique SAE).</span>
+                            <span class="lang-en hidden">Creation of a modern e-commerce platform for a fictional client (academic SAE project).</span>
                         </p>
                         <button class="expand-btn hover-trigger" onclick="toggleDetails('sae3-details', this)">
                             <span class="lang-fr">Détails</span><span class="lang-en hidden">Details</span> <i class="fa-solid fa-chevron-down"></i>
@@ -311,9 +348,117 @@
                         </div>
                     </div>
                 </div>
+
+                <div class="card project-card reveal delay-100 spotlight hover-trigger">
+                    <div class="project-header-visual gradient-1">
+                        <i class="fa-solid fa-repeat"></i>
+                        <div class="header-overlay-text">Angular</div>
+                    </div>
+                    <div class="card-body">
+                        <h3 data-fr="App de gestion de routines" data-en="Routine Management App">App de gestion de routines</h3>
+                        <div class="tags">
+                            <span>Angular</span><span>TypeScript</span><span>REST API</span>
+                        </div>
+                        <p class="card-desc">
+                            <span class="lang-fr">Application de suivi et gestion de routines personnelles avec architecture REST et gestion d'état avancée.</span>
+                            <span class="lang-en hidden">Personal routine tracking and management app with REST architecture and advanced state management.</span>
+                        </p>
+                        <button class="expand-btn hover-trigger" onclick="toggleDetails('routine-details', this)">
+                            <span class="lang-fr">Détails</span><span class="lang-en hidden">Details</span> <i class="fa-solid fa-chevron-down"></i>
+                        </button>
+                        <div id="routine-details" class="details-content hidden">
+                            <ul class="styled-list">
+                                <li data-fr="Interface Angular avec composants réutilisables" data-en="Angular interface with reusable components"></li>
+                                <li data-fr="Consommation d'une REST API" data-en="REST API consumption"></li>
+                                <li data-fr="Gestion d'état centralisée" data-en="Centralized state management"></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card project-card reveal delay-200 spotlight hover-trigger">
+                    <div class="project-header-visual gradient-2">
+                        <i class="fa-solid fa-calendar-days"></i>
+                        <div class="header-overlay-text">Vue.js 3</div>
+                    </div>
+                    <div class="card-body">
+                        <h3>flop! — <span class="lang-fr">App de planification</span><span class="lang-en hidden">Planning App</span></h3>
+                        <div class="tags">
+                            <span>Vue.js 3</span><span>Django</span><span>Pinia</span><span>Storybook</span>
+                        </div>
+                        <p class="card-desc">
+                            <span class="lang-fr">Application de planification de cours collaborative. Contribution sur un CRUD de créneaux : saisie d'une durée en minutes et sélection dynamique de l'heure de début.</span>
+                            <span class="lang-en hidden">Collaborative course planning app. Contributed a time slot CRUD: enter a duration in minutes and dynamically pick a start time.</span>
+                        </p>
+                        <button class="expand-btn hover-trigger" onclick="toggleDetails('flop-details', this)">
+                            <span class="lang-fr">Détails</span><span class="lang-en hidden">Details</span> <i class="fa-solid fa-chevron-down"></i>
+                        </button>
+                        <div id="flop-details" class="details-content hidden">
+                            <ul class="styled-list">
+                                <li data-fr="CRUD de créneaux : durée → heure de début calculée dynamiquement" data-en="Time slot CRUD: duration → dynamically computed start time"></li>
+                                <li data-fr="Frontend Vue.js 3 avec Pinia et Valibot" data-en="Vue.js 3 frontend with Pinia and Valibot"></li>
+                                <li data-fr="Backend Django REST Framework" data-en="Django REST Framework backend"></li>
+                                <li data-fr="Design system documenté sous Storybook" data-en="Design system documented with Storybook"></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
             </div>
 
             <div id="life-projects" class="projects-grid hidden">
+
+                <div class="card project-card sv-card reveal spotlight hover-trigger">
+                    <div class="sv-layout">
+                        <div class="sv-gallery">
+                            <div class="sv-gallery-main">
+                                <img src="images/character with weapon.gif" alt="Sunken Vigil — Personnage principal animé">
+                            </div>
+                            <div class="sv-gallery-pair">
+                                <div class="sv-img-wrap">
+                                    <img src="images/veleth - the blind sentinel1.png" alt="Véleth – The Blind Sentinel (pose 1)">
+                                </div>
+                                <div class="sv-img-wrap" style="align-items: flex-end;">
+                                    <img src="images/veleth - the blind sentinel2.png" alt="Véleth – The Blind Sentinel (pose 2)">
+                                </div>
+                            </div>
+                            <div class="sv-gallery-pair sv-tiles">
+                                <div class="sv-img-wrap">
+                                    <img src="images/tile simple.png" alt="Tileset de base">
+                                </div>
+                                <div class="sv-img-wrap">
+                                    <img src="images/tile avec glow bleu.png" alt="Tileset avec effets lumineux">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <div class="sv-title-row">
+                                <h3>Sunken Vigil</h3>
+                                <span class="sv-badge"><i class="fa-solid fa-star"></i> <span class="lang-fr">Projet solo</span><span class="lang-en hidden">Solo project</span></span>
+                            </div>
+                            <div class="tags">
+                                <span>Python</span><span>Pygame</span><span>Pixel Art</span><span>Game Design</span><span>Solo</span>
+                            </div>
+                            <p class="card-desc">
+                                <span class="lang-fr">Sunken Vigil est un boss rush lovecraftien développé entièrement en solo — code, pixel art et direction artistique. Incarnez le dernier Plongeur d'un Ordre vieux de trois cents ans — pas le meilleur, juste le dernier vivant. Dans les abysses, les Veilleurs s'éveillent un par un, dans un ordre qui n'est pas aléatoire. Descendez. Affrontez-les. Et ignorez la sensation persistante que quelque chose, quelque part, n'a jamais cessé de vous regarder.</span>
+                                <span class="lang-en hidden">Sunken Vigil is a lovecraftian boss rush developed entirely solo — code, pixel art, and art direction. Play as the last Diver of an Order three hundred years old — not the best, just the last one alive. In the abyss, the Watchers awaken one by one, in an order that is not random. Descend. Face them. And ignore the persistent feeling that something, somewhere, never stopped watching you.</span>
+                            </p>
+                            <button class="expand-btn hover-trigger" onclick="toggleDetails('sv-details', this)">
+                                <span class="lang-fr">Systèmes & détails</span><span class="lang-en hidden">Systems & details</span> <i class="fa-solid fa-chevron-down"></i>
+                            </button>
+                            <div id="sv-details" class="details-content hidden">
+                                <ul class="styled-list">
+                                    <li data-fr="10 boss inspirés des abysses, chacun avec 2 phases" data-en="10 abyss-inspired bosses, each with 2 phases"></li>
+                                    <li data-fr="Mouvement 8 directions, dash avec i-frames, stamina en 3 segments" data-en="8-direction movement, dash with i-frames, 3-segment stamina bar"></li>
+                                    <li data-fr="Système de combo" data-en="Combo system"></li>
+                                    <li data-fr="Boss final (Sans-Nom) : IA comportementale qui analyse et s'adapte aux habitudes du joueur" data-en="Final boss (The Nameless): behavioral AI that analyzes and adapts to the player's patterns"></li>
+                                    <li data-fr="Niveaux créés avec Tiled + pytmx" data-en="Levels built with Tiled + pytmx"></li>
+                                    <li data-fr="Sprites réalisés avec Libresprite" data-en="Sprites crafted with Libresprite"></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
                 <div class="card project-card spotlight hover-trigger">
                     <div class="project-header-visual gradient-1">
                         <i class="fa-solid fa-chess-knight"></i>
@@ -422,27 +567,53 @@
 
             <div class="skills-grid">
                 <div class="card skill-card reveal spotlight hover-trigger">
-                    <h3 data-fr="Langages" data-en="Languages">Langages</h3>
+                    <h3 data-fr="Langages Front-end" data-en="Front-end Languages">Langages Front-end</h3>
                     <div class="skill-list">
                         <div class="skill-item">
-                            <div class="skill-header"><span>Python</span><span class="skill-percent">85%</span></div>
+                            <div class="skill-header"><span>HTML/CSS</span><span class="skill-percent">85%</span></div>
                             <div class="bar-container"><div class="bar" style="width:85%"></div></div>
                         </div>
                         <div class="skill-item">
-                            <div class="skill-header"><span>Java</span><span class="skill-percent">90%</span></div>
-                            <div class="bar-container"><div class="bar" style="width:90%"></div></div>
+                            <div class="skill-header"><span>JavaScript</span><span class="skill-percent">80%</span></div>
+                            <div class="bar-container"><div class="bar" style="width:80%"></div></div>
                         </div>
                         <div class="skill-item">
-                            <div class="skill-header"><span>SQL</span><span class="skill-percent">70%</span></div>
+                            <div class="skill-header"><span>TypeScript</span><span class="skill-percent">75%</span></div>
+                            <div class="bar-container"><div class="bar" style="width:75%"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-header"><span>Angular</span><span class="skill-percent">70%</span></div>
                             <div class="bar-container"><div class="bar" style="width:70%"></div></div>
                         </div>
                         <div class="skill-item">
-                            <div class="skill-header"><span>HTML/CSS</span><span class="skill-percent">75%</span></div>
-                            <div class="bar-container"><div class="bar" style="width:75%"></div></div>
+                            <div class="skill-header"><span>Vue.js</span><span class="skill-percent">70%</span></div>
+                            <div class="bar-container"><div class="bar" style="width:70%"></div></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card skill-card reveal delay-100 spotlight hover-trigger">
+                    <h3 data-fr="Langages Back-end" data-en="Back-end Languages">Langages Back-end</h3>
+                    <div class="skill-list">
+                        <div class="skill-item">
+                            <div class="skill-header"><span>Python</span><span class="skill-percent">80%</span></div>
+                            <div class="bar-container"><div class="bar" style="width:80%"></div></div>
                         </div>
                         <div class="skill-item">
-                            <div class="skill-header"><span>C</span><span class="skill-percent">75%</span></div>
-                            <div class="bar-container"><div class="bar" style="width:75%"></div></div>
+                            <div class="skill-header"><span>Django</span><span class="skill-percent">60%</span></div>
+                            <div class="bar-container"><div class="bar" style="width:60%"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-header"><span>SQL</span><span class="skill-percent">65%</span></div>
+                            <div class="bar-container"><div class="bar" style="width:65%"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-header"><span>Java</span><span class="skill-percent">55%</span></div>
+                            <div class="bar-container"><div class="bar" style="width:55%"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-header"><span>C</span><span class="skill-percent">60%</span></div>
+                            <div class="bar-container"><div class="bar" style="width:60%"></div></div>
                         </div>
                     </div>
                 </div>
@@ -450,11 +621,12 @@
                 <div class="card skill-card reveal delay-100 text-center spotlight hover-trigger">
                     <h3 data-fr="Outils" data-en="Tools">Outils</h3>
                     <div class="tools-icons">
-                        <div class="tool"><i class="fa-brands fa-windows"></i></div>
-                        <div class="tool"><i class="fa-brands fa-linux"></i></div>
-                        <div class="tool"><i class="fa-brands fa-git-alt"></i></div>
-                        <div class="tool"><i class="fa-brands fa-unity"></i></div>
-                        <div class="tool"><i class="fa-solid fa-code"></i></div>
+                        <div class="tool" title="Git"><i class="fa-brands fa-git-alt"></i></div>
+                        <div class="tool" title="GitHub"><i class="devicon-github-original colored"></i></div>
+                        <div class="tool" title="Docker"><i class="devicon-docker-plain colored"></i></div>
+                        <div class="tool" title="Blender"><i class="devicon-blender-original colored"></i></div>
+                        <div class="tool" title="Linux"><i class="fa-brands fa-linux"></i></div>
+                        <div class="tool" title="Unity"><i class="fa-brands fa-unity"></i></div>
                     </div>
                 </div>
 
